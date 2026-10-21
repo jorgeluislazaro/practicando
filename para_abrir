@@ -1,0 +1,12 @@
+cd alvcom-app
+
+npm install -D tailwindcss postcss autoprefixer
+
+npx tailwindcss init -p
+
+npm run dev
+
+
+cd alvcom-app
+
+php artisan serve
